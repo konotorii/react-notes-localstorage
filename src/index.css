@@ -1,0 +1,74 @@
+* {
+  background-color: #070707;
+  color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 500;
+}
+
+span, p, div {
+  background-color: transparent;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: start;
+  gap: 2rem;
+
+  padding: 4px;
+  border-bottom: 2px solid #ea4c4c;
+}
+
+.note-button {
+  padding: 10px;
+  border-radius: 10px;
+  border: 2px solid transparent;
+  background-color: #853a3a;
+}
+
+.note-button:hover {
+  background-color: #6a2e2e;
+  border: 2px solid #ed3434;
+}
+
+button.delete {
+  color: transparent;
+  border: none;
+  background-color: transparent;
+}
+
+button.delete:hover {
+  color: #808080;
+  border-radius: 25px;
+  background-color: #3e3e3e;
+}
+
+.note {
+  display: flex;
+  flex-direction: column;
+}
+
+input.title {
+  font-size: 3rem;
+  padding: 10px;
+  border: 2px solid transparent;
+  border-bottom: 2px solid #ea4c4c;
+  width: fit-content;
+}
+
+input.title:focus {
+  outline: 2px solid transparent;
+  border-bottom: 2px solid #ea6e6e;
+}
+
+textarea.note {
+  font-size: 1rem;
+  height: fit-content;
+  padding: 10px;
+  border: 2px solid transparent;
+}
+
+textarea.note:focus {
+  outline: 2px solid transparent;
+}
